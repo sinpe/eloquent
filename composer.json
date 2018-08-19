@@ -1,0 +1,29 @@
+{
+    "name": "long/eloquent",
+    "description": "Eloquent扩展，来自pyrocms",
+    "keywords": ["eloquent"],
+    "homepage": "https://github.com/sinpe/eloquent",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Sinpe Inc.",
+        "email": "18222544@qq.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Sinpe\\Eloquent\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+	"long/support": "dev-master",
+        "long/event": "dev-master",
+        "long/config": "dev-master",
+        "long/cache": "dev-master",
+        "symfony/process": "^4.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35|~5.7"
+    },
+    "minimum-stability": "dev"
+}
