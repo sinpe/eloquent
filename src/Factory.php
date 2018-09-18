@@ -2,9 +2,10 @@
 
 namespace Sinpe\Eloquent;
 
+use Psr\Container\ContainerInterface;
+
 use Sinpe\Support\Traits\FireAware as FireTrait;
 use Anomaly\Streams\Platform\Support\Hydrator;
-use Sinpe\Support\ContainerInterface;
 
 //use Illuminate\Foundation\Bus\DispatchesJobs;
 
