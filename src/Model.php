@@ -62,6 +62,18 @@ class Model extends ModelBase implements PresentableInterface
         static::$container = $container;
     }
     */
+	
+	/**
+     * Boot the model.
+     */
+    protected static function boot()
+    {
+        parent::boot();
+
+        // TODO 缓存
+
+        self::observe(Observer::class);
+    }
 
     /**
      * Return the object's ETag fingerprint.
