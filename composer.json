@@ -16,10 +16,10 @@
     },
     "require": {
         "php": ">=7.2",
-	"long/event": "^0.0.2",
-	"long/config": "^1.0.4",
-	"long/cache": "^0.0.1",
-        "symfony/process": "^4.1"
+        "long/event": "^0.0.3",
+        "long/config": "^1.0",
+        "long/cache": "^0.0.2",
+	"symfony/process": "^4.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.3"
